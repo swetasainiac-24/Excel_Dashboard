@@ -1,14 +1,50 @@
-# E-commerce Sales & Profitability Dashboard
-Overview:
+**Project Overview**
 
-Hey everyone! I just finished a new data analytics project where I built an Excel dashboard to track e-commerce sales and profit margins.
-**Key Highlights:**
+This project involves a comprehensive data analytics study of a global retail dataset (2018-2020). The goal was to transform raw sales and customer data into an interactive dashboard to track key performance indicators (KPIs), understand regional sales distribution, and identify profitable product categories.
 
-**The Numbers:** Analyzed 4,806 transactions, showing total sales of around 5.38 Cr and a net profit of 36.8 Lakhs.
-**Top Category:** The Technology segment brought in the highest profit (~21.6 Lakhs), followed by Furniture and Office Supplies.
-**Platform Breakdown:** Compared performance across channels like Amazon, Flipkart, India Mart, and Snapdeal.
-**Shipping Trends:** Mapped out quarterly shipping costs across different regions like Oceania and Central Asia.
-**Skills Used:** Advanced Excel (Pivot Tables, Data Modeling, and Dashboard Creation).
+**Tools & Technologies**
+**Microsoft Excel:** Advanced Pivot Tables, Power Query for data cleaning, and Slicers for interactivity.
 
-**Project Goal:**
-My main goal was to turn complex raw data into a clean, easy-to-read view that helps in making quick business decisions.
+**Data Visualization:** Custom charts (Bar, Line, and Doughnut charts) for trend analysis.
+
+**Data Analytics Techniques:** Trend analysis, regional benchmarking, and profit margin calculation.
+
+**Requirements**
+A dataset containing Order IDs, Product Categories, Sales, Costs, and Shipping details.
+
+Analysis of sales performance across different sources (Amazon, Flipkart, Snapdeal, etc.).
+
+Quarterly and yearly growth tracking.
+
+**Challenges Faced**
+**Data Cleaning:** Handling inconsistent date formats and merging multiple CSV sheets into a single source of truth.
+
+**Metric Accuracy:** Ensuring that "Total Sales Amount" correctly accounted for discounts and shipping costs.
+
+**Design Balance:** Creating a dashboard that is visually appealing but also easy to read for a non-technical stakeholder.
+
+**Key Insights**
+
+**Top Performer**: The Technology category contributes the highest profit (~2.1M), significantly outperforming Office Supplies.
+
+**Channel Efficiency:** Amazon and Referral links are the primary drivers of sales volume compared to other platforms.
+
+**Shipping Trends:** Shipping costs peak in Q3 across most years, suggesting a seasonal surge in logistics demand.
+
+**Regional Dominance**: Central Asia and Oceania show consistent growth, while Southeast Asia remains a market with untapped potential.
+
+**Recommendations for Improvement**
+Customer Segmentation: Deep dive into the "Age" and "Segment" columns to create personalized marketing strategies for different age groups.
+
+**Inventory Optimization**: Since Technology has high demand, inventory levels should be optimized to prevent stockouts during peak quarters (Q3/Q4).
+
+**Automated Forecasting**: Integrate a simple linear regression or moving average trend line to predict next year's sales.
+
+**Feedback Integration**: Add a "Return Rate" metric to see if high-selling products also have high returns, which could impact net profit.
+**Customer Segmentation**: Deep dive into the "Age" and "Segment" columns to create personalized marketing strategies for different age groups.
+
+**Inventory Optimization**: Since Technology has high demand, inventory levels should be optimized to prevent stockouts during peak quarters (Q3/Q4).
+
+**Automated Forecasting**: Integrate a simple linear regression or moving average trend line to predict next year's sales.
+
+**Feedback Integration**: Add a "Return Rate" metric to see if high-selling products also have high returns, which could impact net profit.
